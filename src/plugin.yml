@@ -1,0 +1,6 @@
+name: jYoutube
+version: 1.0
+main: br.com.joaoraphael.jyoutube.Main
+commands:
+  youtube:
+    aliases: [yt, youtubers, tagyt]

@@ -1,0 +1,27 @@
+#######################################
+#                                                                         # 
+#    Plugin: jYoutube                                          #
+#    Desenvolvidor por: Jaao                             # 
+#    Contato: https://twitter.com/_jaoraphael    #
+#                                                                       #
+#####################################
+
+# Permissões
+# jyoutube.use * Permissão para ver as informações do /youtuber
+# jyoutube.youtuber * Permissão para aparecer na lista de youtubers
+# jyoutube.lista * Permissão para ver a lista de youtubers online
+
+#Mensagem que será enviado quando o player não possuir acesso ao comando
+sem_permissao: "&cVocê não tem permissão para executar esse comando."
+
+#Prefxo do grupo youtuber
+prefixo: "&c[YT]"
+
+#Mensagem que será enviada quando não houver nenhum youtuber online
+nenhum_on: "&cNão há nenhum {prefixo} &conline no momento."
+
+#Mensagens que serão enviadas quando o comando /youtube for executado
+mensagem:
+  - "&cTag Youtuber"
+  - "&c1"
+  - "&c2"
