@@ -9,6 +9,7 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         RegisterCommands();
+        RegisterEvents();
         if (!new File(getDataFolder(), "config.yml").exists()){
             saveDefaultConfig();
         }
@@ -22,6 +23,11 @@ public class Main extends JavaPlugin {
     public void RegisterCommands(){
         getCommand("youtube").setExecutor(new Youtuber());
     }
+    
+    public void RegisterEvents(){
+        Bukkit.getPluginManager().registerEvents(new Eventos(), this);
+    }
+    
     
     public static Main getMain(){
         return (Main) Bukkit.getPluginManager().getPlugin("jYoutube");

@@ -1,9 +1,9 @@
 #######################################
-#                                                                         # 
-#    Plugin: jYoutube                                          #
-#    Desenvolvidor por: Jaao                             # 
-#    Contato: https://twitter.com/_jaoraphael    #
-#                                                                       #
+#                                                                         
+#    Plugin: jYoutube                                       
+#    Desenvolvidor por: Jaao                             
+#    Contato: https://twitter.com/_jaoraphael    
+#                                                                       
 #####################################
 
 # Permissões
@@ -16,6 +16,11 @@ sem_permissao: "&cVocê não tem permissão para executar esse comando."
 
 #Prefxo do grupo youtuber
 prefixo: "&c[YT]"
+
+#Forma que os youtubers online serão mostrados
+Gui: true
+Chat: false
+
 
 #Mensagem que será enviada quando não houver nenhum youtuber online
 nenhum_on: "&cNão há nenhum {prefixo} &conline no momento."
